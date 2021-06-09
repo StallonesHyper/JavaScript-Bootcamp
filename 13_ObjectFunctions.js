@@ -22,3 +22,14 @@ function personEntity(name, age, location) {
 
 personEntity("Stallone", 19, "Goa");
 //Function Call
+
+//This Keyword Use Cases:
+let x = {
+  name: "Stallone",
+
+  print: function () {
+    console.log(this.name);
+  },
+};
+
+x.print();
